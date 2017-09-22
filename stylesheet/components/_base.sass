@@ -1,0 +1,54 @@
+//=============== GLOBAL VARIABLES ===============
+@import url("https://fonts.googleapis.com/css?family=Roboto:700")
+
+// FONT WEIGHTS
+$light: 100
+$regular: 400
+$bold: 600
+
+// BASE FONT
+$font: "Roboto", sans-serif
+
+// FONT SIZES
+$header-fontSize: 2.2rem
+$main-fontSize: 1.6rem
+
+// FONT COLORS
+$primary-color: #005DFF
+$secondary-color: white
+$action-color: red
+
+$first-color: #EBF5EE
+$second-color: #005DFF
+$third-color: #EBF5EE
+
+
+// HEADINGS
+$header-font-weight: $bold
+
+//=============== BASE STRUCTURE ===============
+html
+    height: 100%
+    margin: 0
+    font-size: 62.5%
+    font-family: $font
+body 
+    font-family: $font !important
+
+footer.footer
+    background-color: $second-color
+    height: 5vh
+    border-top: .1rem solid orange
+    display: none
+    justify-content: center
+    align-items: center
+    p
+        text-align: center
+        color: $first-color
+        font-size: 1.4rem
+
+@media (min-width: 768px)
+    footer.footer
+        display: flex
+
+@import reset

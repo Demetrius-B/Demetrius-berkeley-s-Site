@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DB - Contact Me</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/57f5f4fb36.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="container-fluid d-flex header">
+            <div class="row-fluid d-flex">
+                <div class="col-md-12 d-flex head">
+                    <a href="../index.html"><img class="logo" src="../img/logo3.png" alt="Demetrius_Berkeley_Logo"></a>
+                    <h1>Contact!</h1>
+                </div>
+            </div>
+        </header>
+
+        <div class="profile row-fluid d-flex">
+            <div class="username">
+                <img src="../img/me2.png" alt="Stock Photo">
+                <h2>Demetrius Berkeley</h2>
+                <h2><small><i class="material-icons">place</i> Orlando, FL (USA)</small></h2>
+                <p><i class="material-icons">work</i> Web Design and Development.</p>
+            </div>
+            <div class="social col-sm-12 col-md-12">
+                <h2 class="socialLink">Social Links</h2>
+                <a href="https://www.facebook.com/waflamingo" class="icon-button"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a>
+                <a href="https://www.linkedin.com/in/demetrius-berkeley-277826103/" class="icon-button"><i class="fa fa-linkedin" aria-hidden="true"></i><span></span></a>
+                <a href="https://github.com/Demetrius-B" class="icon-button"><i class="fa fa-github" aria-hidden="true"></i><span></span></a>
+            </div>
+            <div class="contact col-md-6">
+                <h2>Get in Touch</h2>
+                <p>If you'd like to get in touch and chat please use one of the social media links above. If you'd like to hire me or work on a project together use the form below.</p>
+                <div class="cForm">
+                    <!-- <form action="" class="contactForm d-flex flex-column">
+                        <p>You name or company</p>
+                        <input type="text" />
+                        <p>Your email</p>
+                        <input type="text" />
+                        <p>Subject</p>
+                        <input type="text" />
+                        <p>Your Message</p>
+                        <textarea rows="4" cols="50"></textarea>
+                        <button type="submit">Submit</button>
+                    </form> -->
+                    <form class="container contactForm" id="needs-validation" novalidate>
+                        <div class="row">
+                          <div class="col-md-6 mb-3">
+                            <label for="validationCustom01">First name</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="validationCustom02">Last name</label>
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 mb-3">
+                            <label for="validationCustom03">City</label>
+                            <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                            <div class="invalid-feedback">
+                              Please provide a valid city.
+                            </div>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <label for="validationCustom04">State</label>
+                            <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+                            <div class="invalid-feedback">
+                              Please provide a valid state.
+                            </div>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <label for="validationCustom05">Zip</label>
+                            <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+                            <div class="invalid-feedback">
+                              Please provide a valid zip.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="validationCustom02">Your Message</label>                                    
+                                <textarea class="form-control" id="validationCustom02"></textarea>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                      </form>
+                </div>
+            </div>
+            
+
+            <div class="thankYou col-md-6">
+                <h2>Thank You!</h2>
+                <p>I really appreciate you taking the time to view this page and if you filled out the contact form I will be looking forward to speaking with you.</p>
+                <p>Sincerely,</p>
+                <p>Demetrius Berkeley</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/src.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.skill-container
+    height: 50vh
+    background-color: #FFF
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24)
+    cursor: pointer
+    padding: 0
+    .skill-header
+        height: 70%
+        padding: 1.5rem
+        display: flex
+        justify-content: center
+        .skill-icon
+            height: 100%
+            width: 100%
+        svg  
+            height: 100%
+            width: auto
+    .skill-body
+        background-color: $second-color
+        height: 30%
+        padding-left: 1.5rem
+        padding-right: 1.5rem
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        h2 
+            padding-top: .5rem
+            color: $first-color
+        p  
+            letter-spacing: 1px
+            color: $first-color
+
+div.skill-container.col-sm-12.col-md-6.col-lg-3
+    padding: 0
+
+
+@media (min-width: 768px)
+    .skill-container
+        .skill-body
+            h2 
+                font-size: 2rem
+            p  
+                font-size: 1.8rem

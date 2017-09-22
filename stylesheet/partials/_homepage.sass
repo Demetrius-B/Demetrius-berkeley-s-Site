@@ -1,0 +1,67 @@
+div.container-fluid
+    height: 100%
+    padding-left: 0
+    padding-right: 0
+
+.content-container.row-fluid
+    display: flex
+    flex-direction: column
+    height: 86vh
+    div.col-md-12
+        padding-left: 0
+        padding-right: 0
+        flex: none
+
+.projectsLink, .skillsLink, .contactLink
+    height: 34%
+    justify-content: center
+    align-items: center
+    background-color: $second-color
+    a  
+        font-size: 4rem
+        font-weight: 700
+        color: $first-color
+        letter-spacing: .1rem
+        &:hover
+            color: $third-color
+
+
+.projectsLink, .skillsLink
+    border-bottom: .1rem solid $first-color
+
+@media (min-width: 768px)
+    .content-container.row-fluid
+        flex-direction: row
+        .projectsLink, .skillsLink, .contactLink
+            width: 33.3333vw
+            height: 90vh
+            border-bottom: 0
+            border-right: .1rem solid $first-color
+    footer.footer
+        font-size: 1.6rem
+        letter-spacing: 2px
+
+@media (min-width: 1250px)
+    .content-container
+        .projectsLink, .skillsLink, .contactLink
+            a  
+                font-size: 7.4rem
+
+@media (min-width: 1082px)
+    .content-container
+        .projectsLink, .skillsLink, .contactLink
+            a  
+                font-size: 6.4rem
+
+@media (min-width: 900px)
+    .content-container
+        .projectsLink, .skillsLink, .contactLink
+            a
+                font-size: 5.4rem
+
+@media (min-width: 770px)
+    .content-container
+        .projectsLink, .skillsLink, .contactLink
+            a
+                font-size: 4.4rem
+

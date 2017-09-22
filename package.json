@@ -1,0 +1,26 @@
+{
+  "name": "demetriusberkeley.com",
+  "version": "1.0.0",
+  "description": "Demetrius Berkeley's Portfolio Site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Demetrius-B/demetriusberkeley.info.git"
+  },
+  "author": "Demetrius Berkeley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Demetrius-B/demetriusberkeley.info/issues"
+  },
+  "homepage": "https://github.com/Demetrius-B/demetriusberkeley.info#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-babel": "^7.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

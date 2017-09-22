@@ -1,0 +1,80 @@
+
+.projectList
+    background-color: #373F51
+    height: 100%
+    flex-direction: column
+    padding-left: 0
+
+    #firstP
+        background-image: url("../../img/pr1.png")
+    #secondP
+        background-image: url(../../img/pr2.png)
+    #thirdP
+        background-image: url("../../img/pr3.png")
+
+    .project
+        background-size: cover
+        height: 29vh
+        width: auto
+        position: relative
+        padding-top: 1rem
+        justify-content: center
+        background-position: center
+        border-bottom: .2rem solid $first-color
+        padding-left: 0
+        img
+            height: 100%
+            width: auto
+        button  
+            background-color: $second-color
+            color: $first-color
+            font-size: 2rem
+            font-family: $font
+            text-align: center
+            position: absolute
+            bottom: 0
+            margin-bottom: 0
+            width: 100%
+            display: none
+            padding: .3rem
+
+.project:hover > button 
+    display: block
+
+// Modal
+
+.modal-dialog
+    height: 80vh
+    .modal-content
+        height: 100%
+
+div.modal-body
+    height: 30rem
+    padding: 0
+    overflow: scroll
+    img
+        height: auto
+        width: 100%
+    h2 
+        padding: 1.5rem
+        font-weight: bolder
+    p 
+        overflow: scroll
+        font-size: 1.4rem
+        padding-left: 1.5rem
+        padding-right: 1.5rem
+
+
+button.btn-primary
+    border-color: $second-color
+
+@media (min-width: 425px)
+    .projectList
+        flex-wrap: wrap
+        flex-direction: row
+        height: 90vh
+        .project
+            flex-direction: row
+            height: 45vh
+            padding-left: 0
+            width: 100%
